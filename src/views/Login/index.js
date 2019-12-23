@@ -61,7 +61,7 @@ class LoginForm extends Component{
                                     {getFieldDecorator('remember', {
                                         valuePropName: 'checked',
                                         initialValue: true,
-                                    })(<Checkbox>记住密码</Checkbox>)}
+                                    })(<Checkbox>记住密码1</Checkbox>)}
                                 </Form.Item>
                                 <Form.Item>
                                     <Button type="primary" htmlType="submit" className="login-form-button" size="large">
